@@ -318,8 +318,7 @@ def flash(port, file):
         port=port,
         baudrate=115200,
         parity=serial.PARITY_NONE,
-        stopbits=serial.STOPBITS_ONE,
-        xonxoff=True
+        stopbits=serial.STOPBITS_ONE
     )
 
     # Burn the prompt
